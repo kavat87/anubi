@@ -290,7 +290,7 @@ def init_rules_repo(thread_name, local_rules):
       if repo is not None:
         config.loggers["resources"]["logger_anubi_" + thread_name].get_logger().info("Pull rules repo status: {}".format(repo))
     else:
-      repo = clone_repo("https://github.com/kavat/anubi-signatures", config.anubi_path['signatures_path']) 
+      repo = clone_repo("https://github.com/kavat87/anubi-signatures", config.anubi_path['signatures_path']) 
       if repo is not None:
         config.loggers["resources"]["logger_anubi_" + thread_name].get_logger().info("Clone rules repo status: {}".format(repo))
   return repo

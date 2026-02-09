@@ -6,7 +6,7 @@ curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -
 
 cd /opt
 
-git clone https://github.com/kavat/anubi
+git clone https://github.com/kavat87/anubi
 
 cd /opt/anubi
 python3 -m venv ./anubi_env

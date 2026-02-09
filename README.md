@@ -17,19 +17,19 @@ Anubi combines 5 different engines to check your assets:
 5. API
 6. SBOM (Software bill of materials)
 
-These functionalities use a prepared set of rules available in [my repository](https://github.com/kavat/anubi-signatures) generated daily; even custom rules can be loaded.
+These functionalities use a prepared set of rules available in [my repository](https://github.com/kavat87/anubi-signatures) generated daily; even custom rules can be loaded.
 
 ### IOC scanner
-IOC scan is a passive monitoring on the filesystem root applying Yara rules generated in [my official repo](https://github.com/kavat/anubi-signatures/tree/main/yara)
+IOC scan is a passive monitoring on the filesystem root applying Yara rules generated in [my official repo](https://github.com/kavat87/anubi-signatures/tree/main/yara)
 
 ### Hash scanner
-Hash scan is a passive monitoring on the filesystem root applying Hash rules generated in [my official repo](https://github.com/kavat/anubi-signatures/tree/main/hash)
+Hash scan is a passive monitoring on the filesystem root applying Hash rules generated in [my official repo](https://github.com/kavat87/anubi-signatures/tree/main/hash)
 
 ### IP checker
-IP checker is an active monitoring of a particular ethernet interface applying IP rules generated in [my official repo](https://github.com/kavat/anubi-signatures/tree/main/ips)
+IP checker is an active monitoring of a particular ethernet interface applying IP rules generated in [my official repo](https://github.com/kavat87/anubi-signatures/tree/main/ips)
 
 ### Filesystem modifications (Voyeur)
-Voyeur is an active monitoring on the filesystem directories specified applying [Yara](https://github.com/kavat/anubi-signatures/tree/main/yara) and [Hash](https://github.com/kavat/anubi-signatures/tree/main/hash) rules
+Voyeur is an active monitoring on the filesystem directories specified applying [Yara](https://github.com/kavat87/anubi-signatures/tree/main/yara) and [Hash](https://github.com/kavat87/anubi-signatures/tree/main/hash) rules
 
 ### API
 Anubi helps users with its own API system used to interact. 
