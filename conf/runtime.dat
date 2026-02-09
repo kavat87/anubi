@@ -1,0 +1,9 @@
+yara=N
+yara_hhmm=15:44
+hash=N
+hash_hhmm=16:00
+ip=N
+eth=en0
+live=N
+yara_live=Y
+hash_live=Y
